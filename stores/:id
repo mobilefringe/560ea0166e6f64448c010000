@@ -1,59 +1,6 @@
-<style>
-    .demo1{
-float: left;
- margin-bottom:29px;
-  height: 318px;
-    width: 562px;
-background-color: #FFFFFF ;
-  border: 1px solid #b2aaab;
-
-}
-
-.page_banner {
-    line-height:1;
-    padding-top:30px;
-}
-.banner_1{
-    margin-bottom:5px;
-}
-.banner_2{
-    font-size:12px;
-}
-.froala-element img{
-    cursor:default !important;
-}
-.marker {
-    background: url("http://kodekloud.s3.amazonaws.com/sites/54cfab316e6f6433ad020000/530d3a9b7bc13ce4a511089c23463f99/10dundas_pin.png") no-repeat;
-    cursor: pointer;
-    display: block;
-    height: 75px;
-    margin-top: 5px;
-    outline: medium none;
-    text-indent: -9999px;
-    width: 50px;
-}
-@media (max-width: 767px) {
-    #store_desc_container{
-        display:none !important;
-    }
-    
-    .right_column{
-        display:block !important;
-    }
-    #mobile_desc{
-        display: block !important;
-        margin-top:20px;
-        margin-bottom:20px;
-    }
-    .mobile_promo_divs{
-        display:block !important;
-    }
-    .desktop_promo_divs{
-        display:none !important;
-    }
-}
-</style>
 <script src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/92b82a88144a6207ab1a5e8e0f63d3d1/craftmap.js"></script>
+<link type="text/css" rel="stylesheet" href="/stores_id.css" />
+
 <div id="loading_screen">
     <img alt="loading" src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
 </div>
