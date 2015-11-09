@@ -1,0 +1,1 @@
+$(document).trigger('render:ready');
