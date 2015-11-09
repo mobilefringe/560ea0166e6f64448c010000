@@ -1,3 +1,5 @@
+rpd = renderPageData;
+
 $(document).ready(function() {
     function renderAll (){
         var propertyDetails = getPropertyDetails();
@@ -127,8 +129,6 @@ $(document).ready(function() {
     }
     
 
-    loadMallData(renderAll);  
-
-
+    rpd.add(renderAll);  
 
 });
