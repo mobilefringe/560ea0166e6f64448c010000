@@ -1,3 +1,2 @@
-if (console === undefined || console.log === undefined) {
-    console.log = function(tmp) {}
-}
+if (!window.console) window.console = {};
+if (!window.console.log) window.console.log = function () { };
