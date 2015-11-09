@@ -357,6 +357,8 @@ $(document).ready(function() {
 		$(this).toggleClass("open");
 	});
 	
-	loadMallDataCached(renderPageData.render);
+	$(document).bind('render:ready', function() {
+        loadMallDataCached(renderPageData.render);
+	});
 
 });
