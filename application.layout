@@ -48,7 +48,7 @@
 
 <script src="http://cdn.jsdelivr.net/jquery.zoomooz/1.1.6/jquery.zoomooz.min.js"></script>
 
-<script src="/application.js" defer></script>
+<script src="/application.js"></script>
 
 
 <style>
