@@ -42,7 +42,8 @@ $('#contact_form').submit(function(e) {
 	}
 });
 
-rpd = randomPageData 
+rpd = randomPageData;
+
 $(document).ready(function() {
     function renderAll (){
         var propertyDetails = getPropertyDetails();
