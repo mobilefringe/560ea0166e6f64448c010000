@@ -1,5 +1,5 @@
 $(document).ready(function() {
-function renderAll (){
+    function renderAll (){
         var propertyDetails = getPropertyDetails();
         renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
         
@@ -101,4 +101,5 @@ function renderAll (){
     
     rpd.add(renderAll);  
     $(document).trigger('render:ready');
+    
 });
