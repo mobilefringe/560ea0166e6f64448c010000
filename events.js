@@ -117,8 +117,5 @@ $(document).ready(function() {
         return month;
     }
 
-    loadMallData(renderAll);  
-
-
-
+    rpd.add(renderAll);
 });
