@@ -142,6 +142,4 @@ $(document).ready(function() {
 
     rpd.add(renderAll); 
     
-
-
 });
