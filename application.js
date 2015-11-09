@@ -11,6 +11,9 @@ setEndPoint('http://lescolonnades.mallmaverick.com/api/v2/collonades/all.json');
 sessionStorage.setItem('primary_locale', 'en-CA');
 sessionStorage.setItem('secondary_locale', 'fr-CA');
 
+if (console === undefined || console.log === undefined) {
+    console.log = function(tmp) {}
+}
 
 function isSameLocale(current_locale, locale_2) {
 	locale = null;
