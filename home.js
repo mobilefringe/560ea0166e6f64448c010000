@@ -134,5 +134,5 @@ $(document).ready(function() {
         
     });
 
-    $.trigger('subpage-loaded');
+    $(document).trigger('render:ready');
 });
