@@ -141,5 +141,5 @@ $(document).ready(function() {
     }
 
     rpd.add(renderAll); 
-    
+    $(document).trigger('render:ready');
 });
