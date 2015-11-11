@@ -54,7 +54,7 @@ $(document).ready(function() {
                         
                         val.store_name = store_details.name
                     } else {
-                        val.alt_promo_image_url = "hhttp://assets.kodekloud.io/sites/562e8c436e6f642deb010000/image/jpeg/1443809778000/default.jpg"
+                        val.alt_promo_image_url = "http://assets.kodekloud.io/sites/562e8c436e6f642deb010000/image/jpeg/1443809778000/default.jpg"
                         val.alt_promo_image_url_2 = "http://assets.kodekloud.io/sites/562e8c436e6f642deb010000/image/jpeg/1443809778000/default.jpg"
                     }
                     
