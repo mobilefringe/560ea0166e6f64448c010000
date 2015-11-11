@@ -45,8 +45,8 @@ $(document).ready(function() {
                     if (val.promotionable_type == "Store") {
                         var store_details = getStoreDetailsByID(val.promotionable_id);
                         if ((store_details.store_front_url_abs).indexOf('missing.png') > -1) {
-                            val.alt_promo_image_url = "http://assets.kodekloud.io/sites/5592c0a26e6f645c97010000/dfb21ac362ef8b899e54acdab20d6e4e/default.jpg";
-                            val.alt_promo_image_url_2 = "http://assets.kodekloud.io/sites/5592c0a26e6f645c97010000/dfb21ac362ef8b899e54acdab20d6e4e/default.jpg";
+                            val.alt_promo_image_url = "http://assets.kodekloud.io/sites/562e8c436e6f642deb010000/image/jpeg/1443809778000/default.jpg";
+                            val.alt_promo_image_url_2 = "http://assets.kodekloud.io/sites/562e8c436e6f642deb010000/image/jpeg/1443809778000/default.jpg";
                             
                         } else {
                             val.alt_promo_image_url = (store_details.store_front_url_abs);
