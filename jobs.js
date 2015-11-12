@@ -1,4 +1,4 @@
-rpd = renderPagedata;
+rpd = renderPageData;
 $(document).ready(function() {
     function renderAll (){
         var propertyDetails = getPropertyDetails();
