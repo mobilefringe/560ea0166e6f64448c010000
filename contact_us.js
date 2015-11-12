@@ -42,7 +42,7 @@ $('#contact_form').submit(function(e) {
 	}
 });
 
-rpd = randomPageData;
+rpd = renderPageData;
 
 $(document).ready(function() {
     function renderAll (){
