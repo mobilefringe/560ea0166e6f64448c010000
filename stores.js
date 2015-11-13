@@ -34,6 +34,14 @@ $(document).ready(function() {
         var category_stores = getStoresListByCategory();
         var categories = getStoreCategories();
         var propertyDetails = getPropertyDetails();
+        
+        for (x in stores) {
+            stores[x].name_locale = stores[x].name;
+            if (sessionStorage.secondary_locale == sessionStorage.current_locale) {
+                stores[x].name_locale = stores[x].name_2;
+            }
+        }
+        
         renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
         renderPageData('#store_list_container','#store_list_template', stores, "stores");
         // renderPageData('#categories_container', '#categories_list_template', categories, "categories");
