@@ -39,8 +39,8 @@ $(document).ready(function() {
          
         store_details.name_locale = store_details.name
         if (sessionStorage.secondary_locale == sessionStorage.current_locale) {
-            if (storeDetails.name_2) {
-                storeDetails.name_locale = storeDetails.name_2;
+            if (store_details.name_2) {
+                store_details.name_locale = storeDetails.name_2;
             }
         }
          
