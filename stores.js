@@ -9,8 +9,6 @@ $(document).ready(function() {
         $("#map_link").hide();
     }
 
-
-    
     function show_cat(link, type){
         $(".cat_links").css("font-weight","normal");
         
@@ -151,6 +149,17 @@ $(document).ready(function() {
         var all_categories = getStoreCategories();
         var test = []
         var template_html = $("#category_store_list_template").html();
+
+        for (var x in all_stores) {
+            all_stores[x].name_locale = all_stores[x].name;
+            if (sessionStorage.secondary_locale == sessionStorage.current_locale) {
+                if (all_stores[x].name_2) {
+                    all_stores[x].name_locale = all_stores[x].name_2;
+                }
+            }
+        }
+
+        
         Mustache.parse(template_html);
         for (i = 0; i < all_categories.length; i++) {
             var stores_per_cat = [];
