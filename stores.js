@@ -182,7 +182,7 @@ $(document).ready(function() {
     };
 
     function populate_stores_for_cat (categoryid, store){
-        $('#cat'+categoryid+'_list').append('<span id="store_for_'+store.id+'"><a href="../stores/'+store.slug+'"><p class="directory_content directory_name_col">'+store.name+'</p></a><a href="tel:'+store.phone+'"><p class="directory_content directory_phone_col">  '+store.phone+'</p></a></span>');
+        $('#cat'+categoryid+'_list').append('<span id="store_for_'+store.id+'"><a href="../stores/'+store.slug+'"><p class="directory_content directory_name_col">'+store.name_locale+'</p></a><a href="tel:'+store.phone+'"><p class="directory_content directory_phone_col">  '+store.phone+'</p></a></span>');
         
     }
     
