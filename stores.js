@@ -35,7 +35,7 @@ $(document).ready(function() {
         var categories = getStoreCategories();
         var propertyDetails = getPropertyDetails();
         
-        for (x in stores) {
+        for (var x in stores) {
             stores[x].name_locale = stores[x].name;
             if (sessionStorage.secondary_locale == sessionStorage.current_locale) {
                 stores[x].name_locale = stores[x].name_2;
