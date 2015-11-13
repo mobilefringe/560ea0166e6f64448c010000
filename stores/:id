@@ -61,10 +61,10 @@
     <ul class="breadcrumb">
         <li><a href="/home" data-i18n="nav.home"></a> </li>
         <li><a href="/stores" data-i18n="nav.store_directory">Store Directory</a></li>
-        <li class="active">{{name}}</li>
+        <li class="active">{{name_locale}}</li>
     </ul>
     <div class="page_banner">
-            <p class="banner_1">{{name}} </p>
+            <p class="banner_1">{{name_locale}} </p>
             <p class="banner_2">{{z_coordinate}}</p>
     </div>
 </script>
