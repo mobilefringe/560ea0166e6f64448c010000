@@ -36,6 +36,14 @@ $(document).ready(function() {
              } 
          });
          jobs = jobs_array;
+         
+        store_details.name_locale = store_details.name
+        if (sessionStorage.secondary_locale == sessionStorage.current_locale) {
+            if (storeDetails.name_2) {
+                storeDetails.name_locale = storeDetails.name_2;
+            }
+        }
+         
         $('#loading_screen').hide();
         $('#main_content').fadeIn();
         // store_details.map_x_coordinate = store_details.x_coordinate - 19;
