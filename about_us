@@ -1,0 +1,46 @@
+<div id="loading_screen">
+    <img alt="loading" src="//kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
+</div>
+<div  id="main_content" style="display:none">
+    <ul class="breadcrumb">
+        <li><a href="/home">Home</a> </li>
+        <li><a href="/contact_us">Contact Us</a> </li>
+        <li class="active">About Us</li>
+    </ul>
+    <div class="page_banner">
+        About Us
+    </div>
+    <div class="inside_page_content">
+        <div class="left_column">
+            <img class="inside_banner_image" alt="banner" src="//codecloud.cdn.speedyrails.net/sites/5592c0a26e6f645c97010000/f09799b52327701680b3adf249c6b477/aboutus.jpg"/>
+            <section class="article-text">
+               <div class="row">
+                    <p>Westside Marketplace is proudly managed by Bentall Kennedy. Bentall Kennedy is one of North America's largest real estate investment advisors and one of its foremost providers of real estate services. Bentall Kennedy serves the interests of more than 400 clients across 130 million square feet of office, retail, industrial, residential and hotel properties totalling $23 billion throughout North America. Bentall Kennedy has a 100-year track record of delivering superior returns and a reputation for integrity, innovation and creating value. Bentall Kennedy is a leader in responsible property investing. As part of our fiduciary framework, we seek to enhance asset performance by addressing the environmental, social and governance aspects of developing, owning and managing commercial real estate. For more information visit: <a href="//www.bentallkennedy.com" target="_blank">www.bentallkennedy.com</a>.</p>
+                    
+               </div>
+            </section>
+            <section class="article-text">
+                <div class="row">
+                    <h3>ForeverGreen Responsible Property Investing</h3>  
+                    <p><strong>ForeverGreen</strong> provides Bentall Kennedy with a consistent messaging strategy on sustainability initiatives that involve our clients, tenants, and suppliers.  Please take a moment to read more about our Responsible Property Investing (RPI) strategy, <a href = "//cr.bentallkennedy.com/Home" target = "_blank">click here!</a> </p>
+                    <br>
+                   
+                   
+                </div>
+            </section>
+        </div>
+        <div class="right_column">
+            <p class="right_column_header">centre information</p>
+            <div id="centre_info_container">
+                <script id="centre_info_template" type="x-tmpl-mustache/text">
+                    <p class="directory_content">{{name}}</p>
+                    <p class="directory_content">{{address1}}</p>
+                    <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
+                </script>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+<script src="/about_us.js"></script>
