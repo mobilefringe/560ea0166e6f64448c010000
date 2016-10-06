@@ -10,7 +10,7 @@
     </div>
     <div class="inside_page_content">
         <div class="left_column">
-            <img class="inside_banner_image" alt="banner" src="//assets.kodekloud.io/sites/562e8c436e6f642deb010000/image/png/1444769365000/Untitled-1.png"/>
+            <img class="inside_banner_image" alt="banner" src="//codecloud.cdn.speedyrails.net/sites/562e8c436e6f642deb010000/image/png/1444769365000/Untitled-1.png"/>
             <!--<a href="/map"><p class="right_column_header" id="mobile_centre_map_link" style="display:none">centre map</p></a><br>-->
             <div class="mobile_cat_list" style="display:none">
                 <p class="right_column_header"  data-i18n="stores.categories"></p>
