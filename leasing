@@ -1,0 +1,87 @@
+<div id="loading_screen">
+    <img alt="loading" src="//kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
+</div>
+<div  id="main_content" style="display:none">
+    <ul class="breadcrumb">
+        <li><a href="/home" data-i18n="nav.home"></a> ha</li>
+        <li class="active" data-i18n="nav.leasing"></li>
+    </ul>
+    <div class="page_banner" data-i18n="nav.leasing">
+    </div>
+    <div class="inside_page_content">
+        <div class="left_column">
+            <img class="inside_banner_image" alt="banner" src="//kodekloud.s3.amazonaws.com/sites/54edfd7a6e6f640717000000/2804b99a4a7c2ed210ec0bfcd23dfaee/Banner-Image-008_edited.jpg"/>
+            <p class="columns_2">
+               <H2 data-i18n="leasing.market_summary.title"></H2>
+               <p data-i18n="leasing.market_summary.content"></p>
+               <br>
+               <strong data-i18n="leasing.market_summary.total_gla"></strong><span data-i18n="leasing.market_summary.gla_info"></span><br><br>
+
+          <section class="article-text">
+               
+                        <br>
+                        <p style="margin-bottom:0"><strong data-i18n"leasing.major_tenants.title"></strong></p>
+                        <p>
+                            <span data-i18n="leasing.major_tenants.tenant_1"></span>
+                            <br><span data-i18n="leasing.major_tenants.tenant_2"></span>
+                            <br><span data-i18n="leasing.major_tenenats.tenant_3"></span>
+                        </p>    
+                        <br>
+                        <p><strong data-i18n="leasing.ancillary.title"></strong><span data-i18n="leasing.ancillary.content"></span></p>
+                   
+                        <table>
+                            <tr>
+                                <td style="width:215px"><strong data-i18n="leasing.demographics.title"></strong></td>
+                                <td style="width:100px" data-i18n="leasing.demographics.data_1"></td>
+                                <td style="width:100px" data-i18n="leasing.demographics.data_2"></td>
+                                <td style="width:100px" data-i18n="leasing.demographics.data_3"></td>
+                            </tr>
+                            <tr>
+                                <td style="width:215px"><strong data-i18n="leasing.total_population.title"></strong></td>
+                                <td style="width:100px" data-i18n="leasing.total_population.data_1"></td>
+                                <td style="width:100px" data-i18n="leasing.total_population.data_2"></td>
+                                <td style="width:100px" data-i18n="leasing.total_population.data_3"></td>
+                            </tr>
+                            <tr>
+                                <td style="width:215px"><strong data-i18n="leasing.total_households.title"></strong></td>
+                                <td style="width:100px" data-i18n="leasing.total_households.data_1"></td>
+                                <td style="width:100px" data-i18n="leasing.total_population.data_2"></td>
+                                <td style="width:100px" data-i18n="leasing.total_population.data_3"></td>
+                            </tr>
+                            <tr>
+                                <td style="width:215px"><strong data-i18n="leasing.household_income.title"></strong></td>
+                                <td style="width:100px" data-i18n="leasing.household_income.data_1"></td>
+                                <td style="width:100px" data-i18n="leasing.household_income.data_2"></td>
+                                <td style="width:100px" data-i18n="leasing.household_income.data_3"></td>
+                            </tr>
+                        </table>
+                        <br>
+             
+                        <h3 data-i18n="leasing.inqueries.title"></h3>
+                  
+                        <p>Garnet Peirson
+                        <br><span data-i18n="leasing.inqueries.position"></span>
+                        <br>1.866.681.2715
+                        <br><a href="mailto:gpeirson@bentallkennedy.com"><strong>gpeirson@bentallkennedy.com</strong></a>
+                        <br>
+                        <br>
+                        <a href="//kodekloud.s3.amazonaws.com/sites/5564befa6e6f640f57000000/d85e07ab7340a02ba90388c9c8560cb2/Westside%20Marketplace%20Site%20Plan%20April%202015.pdf" target="blank"><strong data-i18n="leasing.download_site_plan"></strong></a>
+                            
+                        </p>
+        </div>
+         
+        <div class="right_column">
+            <p class="right_column_header" data-i18n="general.address_title"></p>
+            <div id="centre_info_container">
+                <script id="centre_info_template" type="x-tmpl-mustache/text">
+                    <p class="directory_content">{{name}}</p>
+                    <p class="directory_content">{{address1}}</p>
+                    <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
+                </script>
+            </div>
+            
+            
+        </div>
+  
+</div>
+<script src="/leasing.js"></script>
