@@ -1,0 +1,50 @@
+<div id="loading_screen">
+    <img alt="loading" src="//kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
+</div>
+<div  id="main_content" style="display:none">
+    <ul class="breadcrumb">
+        <li><a href="/home">Home</a> </li>
+        <li class="active">Events</li>
+    </ul>
+    <div class="page_banner">
+        Events
+    </div>
+    <div class="inside_page_content">
+        <div class="left_column">
+            <img class="inside_banner_image" alt="banner" src="//kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/1f4fed1d858c9ddcaf0105aacf32e785/store_list_banner.jpg"/>
+            <div class="promo_list_div" id="promo_list_container">
+                <script id="promo_list_template" type="x-tmpl-mustache/text">
+                    <div class="promo_inside_content">
+                        <div class="promo_image_div">
+                            <a href="{{alt_promo_image_url}}" rel="lightbox-gallery" title="{{name}}">
+                                <img alt="promo image" class="promo_image" src="{{alt_promo_image_url}}" />
+                            </a> 
+                        </div>
+                        <div class="promo_desc_box">
+                            <a href="../events/{{slug}}"><p class="promo_header right_column_header">{{name}}</p></a>
+                            <p class="directory_content promo_date">{{dates}}</p>
+                            <p>{{description}}</p>
+                            <a href="../events/{{slug}}" class="btn btn-primary pull-left">Read More</a> </div>
+                        </div>
+                    </div>
+                </script>
+            </div>  
+            <section class="service_teasers" style="display:none" id="no_event_container">
+                <h2>There are no events at this time, please check back later.</h2>
+            </section>
+        </div>
+        <div class="right_column">
+            <p class="right_column_header">centre information</p>
+            <div id="centre_info_container">
+                <script id="centre_info_template" type="x-tmpl-mustache/text">
+                    <p class="directory_content">{{name}}</p>
+                    <p class="directory_content">{{address1}}</p>
+                    <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
+                </script>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+<script src="/events.js"></script>
