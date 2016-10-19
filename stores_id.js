@@ -177,57 +177,30 @@ $(document).ready(function() {
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
             });
-        // } else if (type == "hours"){
-        //     hours = getHoursForIds(collection.store_hours)
-        //     $.each( hours , function( key, val ) {
-        //         switch(val.day_of_week) {
-        //             case 0:
-        //                 val.day = $.t('app.days.sunday');
-        //                 break;
-        //             case 1:
-        //                 val.day = $.t('app.days.monday');
-        //                 break;
-        //             case 2:
-        //                 val.day = $.t('app.days.tuesday');
-        //                 break;
-        //             case 3:
-        //                 val.day = $.t('app.days.wednesday');
-        //                 break;
-        //             case 4:
-        //                 val.day = $.t('app.days.thursday');
-        //                 break;
-        //             case 5:
-        //                 val.day = $.t('app.days.friday');
-        //                 break;
-        //             case 6:
-        //                 val.day = $.t('app.days.saturday');
-        //                 break;
-        //         }
-                
         } else if (type == "hours"){
             hours = getHoursForIds(collection.store_hours)
             $.each( hours , function( key, val ) {
                 switch(val.day_of_week) {
                     case 0:
-                        val.day = "Sunday"
+                        val.day = $.t('app.days.sunday');
                         break;
                     case 1:
-                        val.day = "Monday"
+                        val.day = $.t('app.days.monday');
                         break;
                     case 2:
-                        val.day = "Tuesday"
+                        val.day = $.t('app.days.tuesday');
                         break;
                     case 3:
-                        val.day = "Wednesday"
+                        val.day = $.t('app.days.wednesday');
                         break;
                     case 4:
-                        val.day = "Thursday"
+                        val.day = $.t('app.days.thursday');
                         break;
                     case 5:
-                        val.day = "Friday"
+                        val.day = $.t('app.days.friday');
                         break;
                     case 6:
-                        val.day = "Saturday"
+                        val.day = $.t('app.days.saturday');
                         break;
                 }
                 if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
