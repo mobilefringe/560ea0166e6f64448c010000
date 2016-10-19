@@ -302,31 +302,31 @@ $(document).ready(function() {
         
     }
 
-    // function convert_hour(d){
-    //     var h = addZero(d.getUTCHours());
-    //     var m = addZero(d.getUTCMinutes());
-    //     var s = addZero(d.getUTCSeconds());
-    //     if (h >= 12) {
-    //         if ( h != 12) {
-    //             h = h - 12;    
-    //         }
+    function convert_hour(d){
+        var h = addZero(d.getUTCHours());
+        var m = addZero(d.getUTCMinutes());
+        var s = addZero(d.getUTCSeconds());
+        if (h >= 12) {
+            if ( h != 12) {
+                h = h - 12;    
+            }
             
-    //         i = "PM"
-    //     } else {
-    //         if (h == 0) { h = 12 }
-    //         i = "AM"
-    //     }
-    //     return h+":"+m+" "+i;
-    // }
+            i = "PM"
+        } else {
+            if (h == 0) { h = 12 }
+            i = "AM"
+        }
+        return h+":"+m+" "+i;
+    }
     
     
     
-    // function addZero(i) {
-    //     if (i < 10) {
-    //         i = "0" + i;
-    //     }
-    //     return i;
-    // }
+    function addZero(i) {
+        if (i < 10) {
+            i = "0" + i;
+        }
+        return i;
+    }
     
     $(document).trigger('render:ready');
 });
