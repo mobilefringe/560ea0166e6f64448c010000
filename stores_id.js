@@ -177,30 +177,57 @@ $(document).ready(function() {
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
             });
+        // } else if (type == "hours"){
+        //     hours = getHoursForIds(collection.store_hours)
+        //     $.each( hours , function( key, val ) {
+        //         switch(val.day_of_week) {
+        //             case 0:
+        //                 val.day = $.t('app.days.sunday');
+        //                 break;
+        //             case 1:
+        //                 val.day = $.t('app.days.monday');
+        //                 break;
+        //             case 2:
+        //                 val.day = $.t('app.days.tuesday');
+        //                 break;
+        //             case 3:
+        //                 val.day = $.t('app.days.wednesday');
+        //                 break;
+        //             case 4:
+        //                 val.day = $.t('app.days.thursday');
+        //                 break;
+        //             case 5:
+        //                 val.day = $.t('app.days.friday');
+        //                 break;
+        //             case 6:
+        //                 val.day = $.t('app.days.saturday');
+        //                 break;
+        //         }
+                
         } else if (type == "hours"){
             hours = getHoursForIds(collection.store_hours)
             $.each( hours , function( key, val ) {
                 switch(val.day_of_week) {
                     case 0:
-                        val.day = $.t('app.days.sunday');
+                        val.day = "Sunday"
                         break;
                     case 1:
-                        val.day = $.t('app.days.monday');
+                        val.day = "Monday"
                         break;
                     case 2:
-                        val.day = $.t('app.days.tuesday');
+                        val.day = "Tuesday"
                         break;
                     case 3:
-                        val.day = $.t('app.days.wednesday');
+                        val.day = "Wednesday"
                         break;
                     case 4:
-                        val.day = $.t('app.days.thursday');
+                        val.day = "Thursday"
                         break;
                     case 5:
-                        val.day = $.t('app.days.friday');
+                        val.day = "Friday"
                         break;
                     case 6:
-                        val.day = $.t('app.days.saturday');
+                        val.day = "Saturday"
                         break;
                 }
                 if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
@@ -275,31 +302,31 @@ $(document).ready(function() {
         
     }
 
-    function convert_hour(d){
-        var h = addZero(d.getUTCHours());
-        var m = addZero(d.getUTCMinutes());
-        var s = addZero(d.getUTCSeconds());
-        if (h >= 12) {
-            if ( h != 12) {
-                h = h - 12;    
-            }
+    // function convert_hour(d){
+    //     var h = addZero(d.getUTCHours());
+    //     var m = addZero(d.getUTCMinutes());
+    //     var s = addZero(d.getUTCSeconds());
+    //     if (h >= 12) {
+    //         if ( h != 12) {
+    //             h = h - 12;    
+    //         }
             
-            i = "PM"
-        } else {
-            if (h == 0) { h = 12 }
-            i = "AM"
-        }
-        return h+":"+m+" "+i;
-    }
+    //         i = "PM"
+    //     } else {
+    //         if (h == 0) { h = 12 }
+    //         i = "AM"
+    //     }
+    //     return h+":"+m+" "+i;
+    // }
     
     
     
-    function addZero(i) {
-        if (i < 10) {
-            i = "0" + i;
-        }
-        return i;
-    }
+    // function addZero(i) {
+    //     if (i < 10) {
+    //         i = "0" + i;
+    //     }
+    //     return i;
+    // }
     
     $(document).trigger('render:ready');
 });
