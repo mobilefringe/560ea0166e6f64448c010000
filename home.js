@@ -31,7 +31,7 @@ $(document).ready(function() {
     
             // Skip rendering the banner images for the non associated locale.
             var list = item_list;
-            if (!isSameLocale(sessionStorage.primary_locale, val.locale)) {
+            if (!isSameLocale(Cookies.get('primary_locale'), val.locale)) {
                 list = item_secondary;
             }
             
