@@ -56,7 +56,7 @@ $(document).ready(function() {
         
         var list = item_list;
         // If we are on the secondary locale but secondary locale is empty use primary locale.
-        if (sessionStorage.secondary_locale == sessionStorage.current_locale && item_secondary.length > 0) {
+        if (Cookies.get('secondary_locale') == Cookies.get('current_locale') && item_secondary.length > 0) {
             list = item_secondary;
         }
         
