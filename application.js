@@ -283,7 +283,6 @@ $(document).ready(function() {
     
 	//Using i18n for localization, for more info please visit //i18next.com/
 	i18n.init({preload: [getStorage().primary_locale, getStorage().secondary_locale], resGetPath: '../__lng__.json', fallbackLng: false }, function(t) {
-		function(t) {
 			var current_local = sessionStorage.primary_locale;
 			if(typeof(sessionStorage.current_locale) != 'undefined' ){
 				current_local = sessionStorage.current_locale;
