@@ -85,11 +85,10 @@ function refreshCurrentLanguage() {
 }
 
 function setSecondaryLanguage(){
-	sessionStorage.setItem('current_locale', sessionStorage.secondary_locale);
-
-	i18n.setLng(sessionStorage.secondary_locale, function(t) {
-		$(document).i18n();
-	});
+	i18n.setLng(Cookies.get('secondary_locale'), function(t) {
+        $(document).i18n();
+    });
+    Cookies.set('current_locale', Cookies.get('secondary_locale'))
 
 	$('.secondary-locale').show(); // Shows
 	$('.primary-locale').hide();
