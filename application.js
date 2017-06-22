@@ -68,7 +68,7 @@ function setPrimaryLanguage(){
 	i18n.setLng(Cookies.get('primary_locale'), function(t) {
         $(document).i18n();
     });
-
+    Cookies.set('current_locale', Cookies.get('primary_locale'))
 	$('.secondary-locale').hide(); // Shows
 	$('.primary-locale').show();
 	$("#search_input").attr("placeholder", i18n.t("general.search_placeholder"));
