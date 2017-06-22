@@ -99,7 +99,7 @@ $(document).ready(function() {
                 val.image_url_locale = val.image_url;
                 val.name_locale = val.name;
 
-                if (Cookies.get('current_locale') == Cookies.get('secondary_locale')) {//(sessionStorage.current_locale == sessionStorage.secondary_locale) {
+                if (Cookies.get('current_locale') == Cookies.get('secondary_locale')) {
                     if (val.image_url_2) {
                         val.image_url_locale = val.image_url_2;
                     }
