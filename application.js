@@ -80,8 +80,8 @@ function refreshCurrentLanguage() {
 		$(document).i18n();
 	});
 	
-	$('.primary-locale').toggle(sessionStorage.primary_locale == sessionStorage.current_locale);
-	$('.secondary-locale').toggle(sessionStorage.secondary_locale == sessionStorage.current_locale);
+	$('.primary-locale').toggle(Cookies.get('primary_locale') == Cookies.get('current_locale'));
+	$('.secondary-locale').toggle(Cookies.get('secondary_locale') == Cookies.get('current_locale'));
 }
 
 function setSecondaryLanguage(){
