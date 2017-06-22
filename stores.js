@@ -35,7 +35,7 @@ $(document).ready(function() {
         
         for (var x in stores) {
             stores[x].name_locale = stores[x].name;
-            if (sessionStorage.secondary_locale == sessionStorage.current_locale) {
+            if (Cookies.get('secondary_locale') == Cookies.get('current_locale')) {
                 if (stores[x].name_2) {
                     stores[x].name_locale = stores[x].name_2;
                 }
