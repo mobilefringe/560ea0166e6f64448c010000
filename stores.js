@@ -152,7 +152,7 @@ $(document).ready(function() {
 
         for (var x in all_stores) {
             all_stores[x].name_locale = all_stores[x].name;
-            if (sessionStorage.secondary_locale == sessionStorage.current_locale) {
+            if (Cookies.get('secondary_locale') == Cookies.get('current_locale')) {
                 if (all_stores[x].name_2) {
                     all_stores[x].name_locale = all_stores[x].name_2;
                 }
