@@ -62,7 +62,7 @@ $(document).ready(function() {
             val.link = "cat" + val.id;
             cat_name = val.name;
             
-            if (sessionStorage.secondary_locale == sessionStorage.current_locale && val.name_2) {
+            if (Cookies.get('secondary_locale') == Cookies.get('current_locale') && val.name_2) {
                 cat_name = val.name_2;
             }
             
