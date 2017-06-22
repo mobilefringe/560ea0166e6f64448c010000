@@ -284,11 +284,11 @@ $(document).ready(function() {
 	//Using i18n for localization, for more info please visit //i18next.com/
 	i18n.init({preload: [getStorage().primary_locale, getStorage().secondary_locale], resGetPath: '../__lng__.json', fallbackLng: false }, function(t) {
 			var current_locale = Cookies.get('primary_locale');
-        if(typeof(Cookies.get('current_locale')) != 'undefined' ){
-            current_locale = Cookies.get('current_locale')
-        }
-        // We're switching french to be the primary locale     
-        if(current_locale == Cookies.get('primary_locale')){
+            if(typeof(Cookies.get('current_locale')) != 'undefined' ){
+                current_locale = Cookies.get('current_locale')
+            }
+            // We're switching french to be the primary locale     
+            if(current_locale == Cookies.get('primary_locale')){
 				setPrimaryLanguage();
 				$('.en-CA').addClass('langSelect');
 				$('.fr-CA').removeClass('langSelect');
