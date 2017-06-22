@@ -121,7 +121,7 @@ $(document).ready(function() {
         $(feature_items).html(item_rendered.join(''));
     }
     
-    renderPageData.add = (function(){
+    renderPageData.add(function(){
         var repoList = getRepoList();
         var featureList = getFeatureList();
         var propertyDetails = getPropertyDetails();
