@@ -76,7 +76,7 @@ function setPrimaryLanguage(){
 }
 
 function refreshCurrentLanguage() {
-	i18n.setLng(sessionStorage.current_locale, function(t) {
+	i18n.setLng(Cookies.get('current_locale'), function(t) {
 		$(document).i18n();
 	});
 	
