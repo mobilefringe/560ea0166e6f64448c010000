@@ -65,9 +65,9 @@ function toggle_submenu(id){
 function setPrimaryLanguage(){
 	sessionStorage.setItem('current_locale', sessionStorage.primary_locale);
 
-	i18n.setLng(sessionStorage.primary_locale, function(t) {
-		$(document).i18n();
-	});
+	i18n.setLng(Cookies.get('primary_locale'), function(t) {
+        $(document).i18n();
+    });;
 
 	$('.secondary-locale').hide(); // Shows
 	$('.primary-locale').show();
