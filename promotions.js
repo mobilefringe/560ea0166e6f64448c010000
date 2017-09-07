@@ -64,11 +64,11 @@ $(document).ready(function() {
                         val.store_name = store_details.name
                     }
                 }
-                if (val.description.length > 110) {
-                   val.description =  val.description.substring(0, 100) + '...';
+                if (val.description != null && val.description.length > 110) {
+                   val.description =  val.description.substring(0,100)+'...';
                 }
-                if (val.description_2 != null) {
-                   val.description_2 =  val.description_2.substring(0, 100) + '...';
+                if (val.description_2 != null && val.description_2.length > 110) {
+                   val.description_2 =  val.description_2.substring(0,100)+'...';
                 }
 
                 var start = moment(val.start_date).tz(getPropertyTimeZone());
