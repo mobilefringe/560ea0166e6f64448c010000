@@ -27,5 +27,5 @@ $(document).ready(function() {
     };
 
     rpd.add(renderAll);  
-    $(document).trigger('render:ready');
+    // $(document).trigger('render:ready');
 });
