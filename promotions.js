@@ -65,7 +65,7 @@ $(document).ready(function() {
                     }
                 }
                 if (val.description != null && val.description.length > 110) {
-                   val.description =  val.description.substring(0,100)+'...';
+                    val.description =  val.description.substring(0,100)+'...';
                 }
                 if (val.description_2 != null) {
                     if(val.description_2.length > 110){
