@@ -7,6 +7,7 @@ $(document).ready(function() {
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
         promo_details = getPromotionDetailsBySlug(slug);
+        console.log(promo_details)
         renderPageData('#breadcrumb_container','#breadcrumb_template',promo_details, 'promo_details')
         renderPageData('#banner_container','#banner_template',promo_details, 'promo_details')
         render_page_details("#promo_container", "#promo_template", promo_details)
