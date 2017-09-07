@@ -135,7 +135,21 @@
                     val.alt_promo_image_url = getCloudinaryImageUrl(val.promo_image_url);
                     val.alt_promo_image_url_2 = getCloudinaryImageUrl(val.promo_image2_url);
                 }
-
+                if ((val.promo_image2_url).indexOf('missing.png') > -1){
+                    if (val.promotionable_type == "Store") {
+                        var store_details = getStoreDetailsByID(val.promotionable_id);
+                        val.alt_promo_image_url_2 = val.promo_image2_url_abs;
+                        val.store_detail_btn = store_details.slug 
+                        val.store_name = store_details.name;
+                    }
+                    if((val.promo_image2_url_abs).indexOf('missing.png') > -1){
+                        var store_front_url = getImageURL(store_details.store_front_url);
+                        val.alt_promo_image_url_2 = store_front_url;
+                        if(store_front_url == null) {
+                            val.alt_promo_image_url_2 = "//assets.kodekloud.io/sites/5633ae1a6e6f6469ef010000/5f309c3d7e0e61be0e6cd1ca513aa84d/default.jpg"
+                        }
+                    }
+                }
                 var start = moment(val.start_date).tz(getPropertyTimeZone());
                 var end = moment(val.end_date).tz(getPropertyTimeZone());
                 if (start.format("DMY") == end.format("DMY")){
