@@ -28,7 +28,6 @@ function isSameLocale(current_locale, locale_2) {
 }
 
 function show_results(id){
-	
 	if ( $("#"+id+"_results").is(":visible")){
 		$("#"+id+"_results").slideUp();
 		$("#"+id+"_arrow").removeClass("fa-chevron-down", 1000);
@@ -41,7 +40,6 @@ function show_results(id){
 		$("#"+id+"_arrow").removeClass("fa-chevron-right", 1000);
 		$("#"+id+"_arrow").addClass("fa-chevron-down", 1000);
 	}
-	
 }
 
 function toggle_menu (){
@@ -50,8 +48,8 @@ function toggle_menu (){
 	} else {
 		$(".mobile_menu").slideDown();    
 	}
-	
 }
+
 function toggle_submenu(id){
 	if ($("#"+id).is(":visible")){
 		$("#"+id).slideUp();
@@ -59,7 +57,6 @@ function toggle_submenu(id){
 		$(".submenu").slideUp();
 		$("#"+id).slideDown();
 	}
-	
 }
 
 function setPrimaryLanguage(){
@@ -95,14 +92,13 @@ function setSecondaryLanguage(){
 
 	$("#search_input").attr("placeholder", i18n.t("general.search_placeholder"));
 	$("#search_input_mobile").attr("placeholder", i18n.t("general.search_placeholder"));
-	
 }
 
 function showSearchResults(){
 	$('#search_results').show();
 	if($('#search_input').val().length == 0){
 		$('#search_results').hide();
-	}else{
+	} else {
 		var search_results = getSearchResults($('#search_input').val(),10,100);
 		$('.search-results-count').html("Total Results : "+search_results.summary.count);
 		renderSearchResultsTemplate('#search_results_template','#search_results_items',search_results);
@@ -111,7 +107,6 @@ function showSearchResults(){
 				$("#store_results_header").html(search_results["stores"].length+" Stores <i id='store_arrow' class='fa fa-chevron-right pull-right'></i>") ;
 				$("#store_results_header").show();
 			}
-			
 		} else {
 			$("#store_results_header").hide();
 		}
@@ -264,9 +259,7 @@ $(document).ready(function() {
 		setSecondaryLanguage();
 
         renderPageData.render();
-		
 	});
-
 
 	$(document).bind('render:complete', function(){
 		refreshCurrentLanguage();
