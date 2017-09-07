@@ -244,100 +244,97 @@
         </a>
      </div>
 </header>
-<div id="back-top"><img alt="BackToTop" src="//kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/c0a5afb0d05049981f657ccf2e67d904/totop.jpg"/></div>
-<div id="page_content">{{yield}}</div>
-
-<footer>
-    <section id="footer_teasers_wrapper">
-        
-        <div class="container">
-            <div class="footer_div">
-            <!--<div class="footer_teaser" style="margin-right:195px">-->
-            <!--    <h3 class="footer_text" style="font-size:17px;width:300px">Sign up and save</h3>-->
-            <!--    <p class="footer_text" style="width:300px;font-size:17px">Join our list and stay connected to be the first to hear about special sales & exclusive events!</p>-->
-            <!--    <form action="//mobilefringe.createsend.com/t/d/s/ijjitl/" method="post" id="subForm">-->
-            <!--        <label for="fieldEmail" style="display:none"> subscribe email </label>-->
-            <!--        <input style="width:290px" class="search_input" id="fieldEmail" name="cm-ijjitl-ijjitl" type="email" required placeholder="enter email" /> -->
-            <!--        <div class="checkbox footer_text" style="width:300px">-->
-            <!--            <span>-->
-            <!--            <label for="agree_terms" style="display:none">Agree Terms</label>-->
-            <!--            <input type="checkbox" class="info_check" id="agree_terms" style="margin-left:-15px; width:15px" required/>&nbsp;I agree to receive emails from Alpine Centre-->
-            <!--            </span>-->
-            <!--        </div>-->
-            <!--        <button class="btn btn-default feature-item-button"  data-i18n="general.submit">Submit</button>-->
-            <!--        <br>-->
-            <!--    </form>-->
-            <!--</div>-->
-                <div class="footer_teaser">
-                    <div id="footer_container">
-                    </div>
-                    <div style="height:30px;position:relative">
-                        <label for="search_input" style="display:none">Search</label>
-                        <input style="color:black;width:265px" type="text" id="search_input" class="search_input" placeholder="Search"><button class="search_button"><img alt="Search" src="//kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/70483e4f30054855ef30b8872dc7948d/icon_search.png"/></button>
-                    </div>
-                    <div class="search-results" id="search_results" style="display:none">
-
-                    
-                        <ul class="list-group" >
-                            
-                            <li>
-                            <a  class="close-search list-group-item" style="color:black;font-weight:bold">
-                                <small>
-                                    <span class="search-results-count">{{count}} results found.</span>&nbsp;<span data-i18n="general.results"></span> 
-                                </small>
-                            </a>
-                            </li>
-                            <li>
-                            <div id="search_results_items" class="search-results-items" style="">
-                            <!--RENDERED BY renderSearchResultsTemplate(..) -->
-                            </div>
-                            </li>
-                            <li>
-                           
-                            </li>
-                        </ul>
-                    </div>
-                 </div>
-            </div>
-        </div>
-        
-        
-    </section>
     
-    <section class="site-map-section">
-        <div class="bottom-site-map">
-            <ul style="margin-bottom:0;padding:0">
-                <li>
-                    <a href="/stores" data-i18n="nav.store_directory"></a>
-                </li>
-               
-                <li>
-                    <a href="/promotions" data-i18n="nav.promotions"></a>
-                </li>
-                <li>
-                    <a href="/leasing" data-i18n="nav.leasing"></a>
-                </li>
-                 <li>
-                    <a href="/find_us" data-i18n="nav.find_us"></a>
-                </li>
-                <li>
-                    <a href="/contact_us" data-i18n="nav.contact_us"></a>
-                </li>
-                
-            </ul>
-        </div>
-    </section>
-      <section class="copyright">
-           <div class="container">
+    <div id="back-top">
+        <img alt="BackToTop" src="//kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/c0a5afb0d05049981f657ccf2e67d904/totop.jpg"/>
+    </div>
+
+    <div id="page_content">{{yield}}</div>
+
+    <footer>
+        <section id="footer_teasers_wrapper">
+            <div class="container">
+                <div class="footer_div">
+                <!--<div class="footer_teaser" style="margin-right:195px">-->
+                <!--    <h3 class="footer_text" style="font-size:17px;width:300px">Sign up and save</h3>-->
+                <!--    <p class="footer_text" style="width:300px;font-size:17px">Join our list and stay connected to be the first to hear about special sales & exclusive events!</p>-->
+                <!--    <form action="//mobilefringe.createsend.com/t/d/s/ijjitl/" method="post" id="subForm">-->
+                <!--        <label for="fieldEmail" style="display:none"> subscribe email </label>-->
+                <!--        <input style="width:290px" class="search_input" id="fieldEmail" name="cm-ijjitl-ijjitl" type="email" required placeholder="enter email" /> -->
+                <!--        <div class="checkbox footer_text" style="width:300px">-->
+                <!--            <span>-->
+                <!--            <label for="agree_terms" style="display:none">Agree Terms</label>-->
+                <!--            <input type="checkbox" class="info_check" id="agree_terms" style="margin-left:-15px; width:15px" required/>&nbsp;I agree to receive emails from Alpine Centre-->
+                <!--            </span>-->
+                <!--        </div>-->
+                <!--        <button class="btn btn-default feature-item-button"  data-i18n="general.submit">Submit</button>-->
+                <!--        <br>-->
+                <!--    </form>-->
+                <!--</div>-->
+                    <div class="footer_teaser">
+                        <div id="footer_container"></div>
+                        <div style="height:30px;position:relative">
+                            <label for="search_input" style="display:none">Search</label>
+                            <input style="color:black;width:265px" type="text" id="search_input" class="search_input" placeholder="Search"><button class="search_button"><img alt="Search" src="//kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/70483e4f30054855ef30b8872dc7948d/icon_search.png"/></button>
+                        </div>
+                        <div class="search-results" id="search_results" style="display:none">
+                            <ul class="list-group" >
+                                <li>
+                                    <a  class="close-search list-group-item" style="color:black;font-weight:bold">
+                                        <small>
+                                            <span class="search-results-count">{{count}} results found.</span>&nbsp;<span data-i18n="general.results"></span> 
+                                        </small>
+                                    </a>
+                                </li>
+                                <li>
+                                    <div id="search_results_items" class="search-results-items" style="">
+                                    <!--RENDERED BY renderSearchResultsTemplate(..) -->
+                                    </div>
+                                </li>
+                                <li>
+                               
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="site-map-section">
+            <div class="bottom-site-map">
+                <ul style="margin-bottom:0;padding:0">
+                    <li>
+                        <a href="/stores" data-i18n="nav.store_directory"></a>
+                    </li>
+                    <li>
+                        <a href="/promotions" data-i18n="nav.promotions"></a>
+                    </li>
+                    <li>
+                        <a href="/leasing" data-i18n="nav.leasing"></a>
+                    </li>
+                    <li>
+                        <a href="/find_us" data-i18n="nav.find_us"></a>
+                    </li>
+                    <li>
+                        <a href="/contact_us" data-i18n="nav.contact_us"></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="copyright">
+            <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-md-6 footer-text">
                         <span data-i18n="app.copywrite"></span> <a href="/privacy_policy" data-i18n="app.privacy_policy"></a>
                     </div>
-                    <div class="text-right col-sm-6 col-md-6 footer-text"> <span data-i18n="app.powered_by"></span> <a href="//mallmaverick.com/" target="_blank">Mall Maverick</a> </div>
+                    <div class="text-right col-sm-6 col-md-6 footer-text"> 
+                        <span data-i18n="app.powered_by"></span> <a href="//mallmaverick.com/" target="_blank">Mall Maverick</a> 
+                    </div>
                 </div>
-           </div>
-      </section>
- </footer>
+            </div>
+        </section>
+    </footer>
 </div>
 
 <script id="logo_template" type="x-tmpl-mustache/text">
