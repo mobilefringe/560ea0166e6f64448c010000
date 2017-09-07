@@ -7,7 +7,6 @@ $(document).ready(function() {
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
         promo_details = getPromotionDetailsBySlug(slug);
-        console.log(promo_details)
         renderPageData('#breadcrumb_container','#breadcrumb_template',promo_details, 'promo_details')
         renderPageData('#banner_container','#banner_template',promo_details, 'promo_details')
         render_page_details("#promo_container", "#promo_template", promo_details)
@@ -62,12 +61,18 @@ $(document).ready(function() {
                 val.alt_promo_image_url = getImageURL(val.promo_image_url);
                 val.alt_promo_image_url_2 = getImageURL(val.promo_image2_url);
             }
-
+            // start = new Date (val.start_date);
+            // end = new Date (val.end_date);
+            // start.setDate(start.getDate()+1);
+            // end.setDate(end.getDate()+1);
+            // val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();
+            
             var start = moment(val.start_date).tz(getPropertyTimeZone());
             var end = moment(val.end_date).tz(getPropertyTimeZone());
             if (start.format("DMY") == end.format("DMY")){
             	val.dates = start.format("MMM D");
-            } else {
+            }
+            else {
             	val.dates = start.format("MMM D") + " - " + end.format("MMM D");
             }
             
@@ -79,6 +84,49 @@ $(document).ready(function() {
         if (collection.promotionable_type == "Store"){
             $("#store_btn").show();
         }
+    }
+    
+    function get_month (id){
+        switch(id) {
+            case 0:
+                month = "Jan"
+                break;
+            case 1:
+                month = "Feb"
+                break;
+            case 2:
+                month = "Mar"
+                break;
+            case 3:
+                month = "Apr"
+                break;
+            case 4:
+                month = "May"
+                break;
+            case 5:
+                month = "June"
+                break;
+            case 6:
+                month = "July"
+                break;
+            case 7:
+                month = "Aug"
+                break;
+            case 8:
+                month = "Sep"
+                break;
+            case 9:
+                month = "Oct"
+                break;
+            case 10:
+                month = "Nov"
+                break;
+            case 11:
+                month = "Dec"
+                break;
+                
+        }
+        return month;
     }
     
     rpd.add(renderAll);
