@@ -37,7 +37,6 @@ $(document).ready(function() {
                 }
             }
         }
-        
         renderPageData('#centre_info_container','#centre_info_template', propertyDetails, 'property_details');
         renderPageData('#store_list_container','#store_list_template', stores, "stores");
         var categories = getStoreCategories();
@@ -168,15 +167,12 @@ $(document).ready(function() {
                     all_stores[j].alt_store_front_url = getImageURL(all_stores[j].store_front_url);    
                     populate_stores_for_cat(all_categories[i].id, all_stores[j]);
                 }
-            
             }
         }
-        
     };
 
     function populate_stores_for_cat (categoryid, store){
         $('#cat'+categoryid+'_list').append('<span id="store_for_'+store.id+'"><a href="../stores/'+store.slug+'"><p class="directory_content directory_name_col">'+store.name_locale+'</p></a><a href="tel:'+store.phone+'"><p class="directory_content directory_phone_col">  '+store.phone+'</p></a></span>');
-        
     }
 
     function goToStore(store_details){
