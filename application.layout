@@ -326,7 +326,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-md-6 footer-text">
-                        <span data-i18n="app.copywrite"></span> <a href="/privacy_policy" data-i18n="app.privacy_policy"></a>
+                       &copy; <span id="current_year"></span> <span data-i18n="app.copywrite"></span> <a href="/privacy_policy" data-i18n="app.privacy_policy"></a>
                     </div>
                     <div class="text-right col-sm-6 col-md-6 footer-text"> 
                         <span data-i18n="app.powered_by"></span> <a href="//mallmaverick.com/" target="_blank">Mall Maverick</a> 
