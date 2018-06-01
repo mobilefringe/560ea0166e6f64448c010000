@@ -135,19 +135,11 @@
             font-size:22px !important;
             margin-top:0 !important;
             line-height:20px !important;
-            text-transform: uppercase;
         }
         .site_description{
             font-size:15px !important;
             line-height:20px !important;
             margin-bottom:0 !important;
-            text-transform: none;
-        }
-        .flex-control-nav {
-            background: #fff;
-        }
-        .flex-control-paging li a {
-            color : #000;
         }
         /*social media box color*/
         #social_media_wrapper{
@@ -189,27 +181,6 @@
         .site-map-section a:hover {}
         .primary-locale, .secondary-locale {
             display:none;
-        }
-        .copyright, .copyright a {
-            color: #FFF;
-        }
-        .copyright a:hover, .copyright a:focus {
-            color: #FFF !important;
-            text-decoration: underline;
-        }
-        .copyright {
-            background-color: rgba(0, 0, 0, 1);
-        }
-        .accessible {
-            color: #fff;
-        }
-        #footer_teasers_wrapper .footer_teaser a {
-            font-size: 13px;
-            color: #ccc;
-        }
-        #footer_teasers_wrapper .footer_teaser a:hover {
-            color: #ccc !important;
-            text-decoration: underline;
         }
         @media (max-width: 767px) {
             .main_window{
