@@ -231,7 +231,7 @@
 <header>
     <a class="accessible" href="#page_content">[Skip to Content]</a>
      <div class="container">
-          <div class="navbar navbar-default" role="navigation">
+          <nav class="navbar navbar-default" role="navigation">
                <div class="navbar-header">
                <div id="site_logo"></div>
 
@@ -292,7 +292,7 @@
                          </li>
                     </ul>
                </nav>
-          </div>
+          </nav>
         
           <div class="hidden-xs language"><a href="#" class="en-CA">en</a> | <a href="#" class="fr-CA">fr</a></div>
           <a href="//bentallkennedy.com/" target="_blank">
