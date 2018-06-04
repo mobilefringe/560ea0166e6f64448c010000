@@ -88,7 +88,7 @@
     <p class="directory_content">{{address1}}</p>
     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
     <br>
-    <div  id="mm_page_content"></div?
+    <div  id="mm_page_content"></div>
 //     <p class="directory_content"><strong>Andreea Rusu
 
 // </strong> 
