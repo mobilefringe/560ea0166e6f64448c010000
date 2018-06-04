@@ -8,8 +8,8 @@
             <li class="active" data-i18n="nav.promotions"></li> {{ $t("nav.promotions") }}
         </ul>
     </nav>
-    <div class="page_banner" data-i18n="nav.promotions">
-
+    <div class="page_banner" >
+        <h2 data-i18n="nav.promotions"></h2>
     </div>
     <div class="inside_page_content">
         <div class="left_column">
