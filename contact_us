@@ -89,15 +89,6 @@
     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
     <br>
     <div  id="mm_page_content_m"></div>
-//     <p class="directory_content"><strong>Andreea Rusu
-
-// </strong> 
-//     <br><span data-i18n="contact_us.contact_1.title"></span>
-//     <br>514.733.8544 Ext. 228
-//     <br><a href="mailto:arusu@bentallkennedy.com
-
-// ">arusu@bentallkennedy.com</a></p>
-//     <br>
 
   </script>
     <script id="centre_info_template" type="x-tmpl-mustache/text">
@@ -106,15 +97,5 @@
     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
     <br>
     <div  id="mm_page_content"></div>
-    //  <p class="directory_content"><strong>Andreea Rusu
-
-// </strong> 
-//     <br><span data-i18n="contact_us.contact_1.title"></span>
-//     <br>514.733.8544 Ext. 228
-//     <br><a href="mailto:arusu@bentallkennedy.com
-
-// ">arusu@bentallkennedy.com</a></p>
-//     <br>
-
 </script>
 <script src="/contact_us.js"></script>
