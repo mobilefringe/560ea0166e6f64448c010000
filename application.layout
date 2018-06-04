@@ -296,9 +296,9 @@
         
           <div class="hidden-xs language"><a href="#" class="en-CA">en</a> | <a href="#" class="fr-CA">fr</a></div>
           <a href="//bentallkennedy.com/" target="_blank">
-            <div class="bk_logo_svg primary-locale"></div>
+            <div class="bk_logo_svg primary-locale"><p style="display:none;">Bentall Kennedy</p></div>
            
-            <div class="bk_logo_svg2 secondary-locale"></div>
+            <div class="bk_logo_svg2 secondary-locale"><p style="display:none;">Bentall Kennedy</p></div>
         </a>
      </div>
 </header>
