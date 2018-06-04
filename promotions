@@ -35,7 +35,8 @@
     <div class="promo_inside_content">
         <div class="promo_image_div">
             <a href="{{alt_promo_image_url}}" rel="lightbox-gallery" title="{{name}}" class="primary-locale">
-                <img alt="promo image" class="promo_image" src="{{alt_promo_image_url}}" />
+                <img alt="{{name}}"
+ class="promo_image" src="{{alt_promo_image_url}}" />
             </a> 
     
             <a href="{{alt_promo_image_url_2}}" rel="lightbox-gallery" title="{{name}}" class="secondary-locale">
