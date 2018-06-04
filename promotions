@@ -43,12 +43,10 @@
             </a>    
         </div>
         <div class="promo_desc_box">
-            <a href="../promotions/{{slug}}">
-                <p class="promo_header right_column_header">
-                    <span class="primary-locale">{{name}}</span>
-                    <span class="secondary-locale">{{name_2}}</span>
-                </p>
-            </a>
+            <p class="promo_header right_column_header">
+                <span class="primary-locale">{{name}}</span>
+                <span class="secondary-locale">{{name_2}}</span>
+            </p>
             <p class="directory_content promo_date"><a href="/stores/{{store_detail_btn}}">{{store_name}}</a><br>{{dates}}</p>
             <p id="desc">
                 <span class="primary-locale">{{description}}</span>
