@@ -293,9 +293,9 @@ th {
 
 .language a {
     color:white;
-    &:hover {
-        color: white;
-    }
+}
+.language a:hover {
+    color: white;
 }
 
 
