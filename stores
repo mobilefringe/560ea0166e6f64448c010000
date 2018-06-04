@@ -66,7 +66,7 @@
         <p class="directory_content directory_name_col">{{name_locale}}</p>
     </a>
     <a href="tel:{{phone}}">
-        <p class="directory_content directory_phone_col">{{phone}}</p>
+        {{#phone}} <p class="directory_content directory_phone_col">{{phone}}</p>{{/phone}} 
     </a>
 </script>
 
