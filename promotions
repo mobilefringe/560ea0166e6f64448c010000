@@ -52,7 +52,7 @@
                 <span class="primary-locale">{{description}}</span>
                 <span class="secondary-locale">{{description_2}}</span>
             </p>
-            <a href="../promotions/{{slug}}" class="btn btn-primary pull-left" data-i18n="general.read_more"></a> </div>
+            <a href="../promotions/{{slug}}" class="btn btn-primary pull-left" data-i18n="promotions.read_more"></a> </div>
         </div>
     </div>
 </script>
