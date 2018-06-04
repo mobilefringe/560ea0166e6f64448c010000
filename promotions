@@ -5,7 +5,7 @@
     <nav>
         <ul class="breadcrumb">
             <li><a href="/home" data-i18n="nav.home"></a> </li>
-            <li class="active" data-i18n="nav.promotions"></li> {{ $t("nav.promotions") }}
+            <li class="active" data-i18n="nav.promotions"></li>
         </ul>
     </nav>
     <div class="page_banner" >
