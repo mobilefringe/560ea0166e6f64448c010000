@@ -101,11 +101,12 @@
 
   </script>
     <script id="centre_info_template" type="x-tmpl-mustache/text">
-//     <p class="directory_content">{{name}}</p>
-//     <p class="directory_content">{{address1}}</p>
-//     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
-//     <br>
-//      <p class="directory_content"><strong>Andreea Rusu
+    <p class="directory_content">{{name}}</p>
+    <p class="directory_content">{{address1}}</p>
+    <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
+    <br>
+    <div  id="mm_page_content"></div>
+    //  <p class="directory_content"><strong>Andreea Rusu
 
 // </strong> 
 //     <br><span data-i18n="contact_us.contact_1.title"></span>
