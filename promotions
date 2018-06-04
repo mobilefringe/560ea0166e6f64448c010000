@@ -4,7 +4,7 @@
 <div  id="main_content" style="display:none">
     <ul class="breadcrumb">
         <li><a href="/home" data-i18n="nav.home"></a> </li>
-        <li class="active" data-i18n="nav.promotions"></li>{{t(nav.promotions)}}
+        <li class="active" data-i18n="nav.promotions"></li>{{i18n.t(nav.promotions)}}
     </ul>
     <div class="page_banner" data-i18n="nav.promotions">
 
