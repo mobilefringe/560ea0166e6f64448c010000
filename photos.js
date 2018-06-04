@@ -7,7 +7,7 @@ $(document).ready(function() {
         renderPhotos("#photo_container", "#photo_template", repoList);
         $("#loading_screen").hide();
         $("#main_content").show();
-        $.getScript("//cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
+        $.getScript("//bkindoortemplate.codecloudapp.com/slimbox_mod.js");
         $('head').append('<link rel="stylesheet" href="//cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
     }
     
