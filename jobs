@@ -21,7 +21,7 @@
         </ul>
     </nav>
     <div class="page_banner" >
-        <h2 data-i18n="nav.jobs"></h2>Jobs
+        <h2 data-i18n="nav.jobs">Jobs</h2>
     </div>
     <div class="inside_page_content">
         <div class="left_column">
