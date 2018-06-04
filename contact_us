@@ -13,7 +13,7 @@
     </div>
     <div class="inside_page_content">
         <div class="left_column">
-            <img class="inside_banner_image" alt="banner" src="//codecloud.cdn.speedyrails.net/sites/562e8c436e6f642deb010000/image/png/1443804258000/contact_us.png"/>
+            <img class="inside_banner_image" alt="" src="//codecloud.cdn.speedyrails.net/sites/562e8c436e6f642deb010000/image/png/1443804258000/contact_us.png"/>
             <div class="show_mobile">
                 <p class="right_column_header" data-i18n="general.address_title">centre information</p>
                 <div id="centre_info_container_mobile">
