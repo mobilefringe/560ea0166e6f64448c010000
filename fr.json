@@ -50,8 +50,8 @@
 	    "contact_name":"Nom du contact: ",
 	    "contact_phone":"Téléphone: ",
 	    "contact_email":"Email: ",
-	   "store_details":"Détails en magasin",
-	   "no_jobs":"Il n’y a aucun emploi vacant pour le moment. Veuillez revenir plus tard.",
+	    "store_details":"Détails en magasin",
+	    "no_jobs":"Il n’y a aucun emploi vacant pour le moment. Veuillez revenir plus tard.",
 		"read_more" : "Détails de la promotion"
 	},
 	"promotions" : {
