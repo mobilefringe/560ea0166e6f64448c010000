@@ -58,11 +58,11 @@ $(document).ready(function() {
             document.title = data.title;
             if (Cookies.get('current_locale') == Cookies.get('secondary_locale')) {
                 // $("#active_breadcrumb").html(data.title_2)
-                $("#page_title").html(data.title_2)
+                // $("#page_title").html(data.title_2)
                 $('#mm_page_content').html(data.body_2);
             } else {
                 // $("#active_breadcrumb").html(data.title)
-                $("#page_title").html(data.title)
+                // $("#page_title").html(data.title)
                 $('#mm_page_content').html(data.body);
                 
             }
