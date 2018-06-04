@@ -58,8 +58,4 @@ $(document).ready(function() {
     rpd.add(renderAll); 
     $(document).trigger('render:ready');
     
-    $.getScript("//cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
-    $('head').append('<link rel="stylesheet" href="//cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
-        
-
 });
