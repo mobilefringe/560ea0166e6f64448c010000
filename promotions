@@ -2,10 +2,12 @@
     <img alt="loading" src="//kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
 </div>
 <div  id="main_content" style="display:none">
-    <ul class="breadcrumb">
+    <nav>
+        <ul class="breadcrumb">
         <li><a href="/home" data-i18n="nav.home"></a> </li>
         <li class="active" data-i18n="nav.promotions"></li> {{ $t("nav.promotions") }}
     </ul>
+    </nav>
     <div class="page_banner" data-i18n="nav.promotions">
 
     </div>
