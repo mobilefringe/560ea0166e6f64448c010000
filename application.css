@@ -295,7 +295,7 @@ th {
     color:white;
 }
 .language a:hover {
-    color: white;
+    color: white!important;
 }
 
 
