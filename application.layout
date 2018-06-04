@@ -219,10 +219,10 @@
                 border-top:none !important;
             }  
               .bk_logo_svg {
-                display: none;
+                display: none!important;
             }
             .bk_logo_svg2 {
-                display: none;
+                display: none!important;
             }
         }
     </style>
