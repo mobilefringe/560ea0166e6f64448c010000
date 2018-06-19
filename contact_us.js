@@ -50,7 +50,7 @@ $(document).ready(function() {
         renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
         renderPageData('#centre_info_container_mobile','#centre_info_template_mobile',propertyDetails, 'property_details');
         prefix = get_prefix();
-        var pages_json = prefix+"/pages/galeries-contact-us.json"
+        var pages_json = prefix+"/pages/collonades-contact-us.json"
         $.getJSON(pages_json).done(function(data) {
             document.title = data.title;
             if (Cookies.get('current_locale') == Cookies.get('secondary_locale')) {
