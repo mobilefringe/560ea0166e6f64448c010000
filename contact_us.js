@@ -52,16 +52,11 @@ $(document).ready(function() {
         prefix = get_prefix();
         var pages_json = prefix+"/pages/galeries-contact-us.json"
         $.getJSON(pages_json).done(function(data) {
-            //var pages_data = JSON.parse(data);
-            // console.log(data.body);
-            
             document.title = data.title;
             if (Cookies.get('current_locale') == Cookies.get('secondary_locale')) {
-                // $("#active_breadcrumb").html(data.title_2)
                 $("#mm_page_content_m").html(data.body_2)
                 $('#mm_page_content').html(data.body_2);
             } else {
-                // $("#active_breadcrumb").html(data.title)
                 $("#mm_page_content_m").html(data.body)
                 $('#mm_page_content').html(data.body);
                 
