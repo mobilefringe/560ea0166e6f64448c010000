@@ -30,7 +30,7 @@
           </section>
         </div>
         <div class="right_column">
-            <p class="right_column_header" data-i18n="general.address_title"></p>
+            <h3 class="right_column_header" data-i18n="general.address_title"></h3>
             <div id="centre_info_container">
             </div>
         </div>
