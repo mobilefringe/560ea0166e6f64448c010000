@@ -277,7 +277,9 @@ th {
 #categories_container a.cat_links {
     display:block;
 }
-
+.lbCloseLink p {
+    font-size: 20px;
+}
 .map-mouse-over {
    stroke: #000;
    fill:   #e2222f;
