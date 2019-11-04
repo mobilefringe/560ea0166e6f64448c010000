@@ -16,7 +16,7 @@
             <img class="inside_banner_image" alt="banner" src="//codecloud.cdn.speedyrails.net/sites/562e8c436e6f642deb010000/image/png/1444769365000/Untitled-1.png"/>
             <!--<a href="/map"><p class="right_column_header" id="mobile_centre_map_link" style="display:none">centre map</p></a><br>-->
             <div class="mobile_cat_list" style="display:none">
-                <p class="right_column_header"  data-i18n="stores.categories"></p>
+                <h3 class="right_column_header"  data-i18n="stores.categories"></h3>
                 <div id="mobile_categories_container">
                     <a href="#categories_container" id="mobile_view_all_link" class="cat_links directory_content" style="font-weight:bold" data-i18n="general.view_all"></a><br>
                 </div>
@@ -34,12 +34,12 @@
         <div class="right_column">
             <!--<a href="/map" id="map_link"><p class="right_column_header">centre map</p></a>-->
             <br>
-            <p class="right_column_header" data-i18n="stores.categories"></p>
+            <h3 class="right_column_header" data-i18n="stores.categories"></h3>
             <div id="categories_container">
                 <a href="#categories_container" id="view_all_link" class="cat_links directory_content" style="font-weight:bold" data-i18n="general.view_all"></a>
             </div>
             <br>
-            <p class="right_column_header" data-i18n="general.address_title"></p>
+            <h3 class="right_column_header" data-i18n="general.address_title"></h3>
             <div id="centre_info_container">
             </div>
             
