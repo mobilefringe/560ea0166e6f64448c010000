@@ -184,7 +184,7 @@ $(document).ready(function() {
     function getSVGMapURL(){
         initData();
         var mallDataJSON = JSON.parse(getStorage().mallData);
-        return 'https://mallmaverick.cdn.speedyrails.net' + mallDataJSON.property.svgmap_url;
+        return 'https://assets.mallmaverick.com' + mallDataJSON.property.svgmap_url;
     }
     
     $('#view_all_link, #mobile_view_all_link').bind('click', function(e) {
